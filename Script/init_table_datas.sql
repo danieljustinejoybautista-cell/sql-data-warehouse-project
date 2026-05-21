@@ -3,6 +3,14 @@
 Bulk Insert Data from the file path into 'bronze' schema tables.
 ==================================================================================================================================
 
+Table list
+	crm_cust_info
+	crm_prd_info
+	crm_sales_details
+	erp_cust_az12
+	erp_loc_a101
+	erp_px_cat_g1v2
+
 Purpose:
   This script will delete the existing datas in the tables listed above and upload initial data 
   from the folder into the tables in 'bronze' schema.
